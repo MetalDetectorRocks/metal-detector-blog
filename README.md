@@ -1,1 +1,2 @@
-# metal-detector-blog
+# Metal Detector Blog
+
