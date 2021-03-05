@@ -50,12 +50,14 @@ params:
     subtitle: "Built for Metalheads."
 
   socialIcons:
-    - name: facebook
-      url: "https://twitter.com/"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/metaldetector"
     - name: instagram
-      url: "https://stackoverflow.com"
+      url: "https://instagram.com" # ToDo DanielW: Create instagram account
     - name: github
       url: "https://github.com/MetalDetectorRocks"
+    - name: rss
+      url: "index.xml"
 
 #  analytics:
 #    google:
@@ -83,17 +85,17 @@ menu:
       name: Metal Detector
       url: https://metal-detector.rocks
       weight: 10
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 30
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 40
 
 outputs:
