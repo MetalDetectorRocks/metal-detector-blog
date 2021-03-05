@@ -1,3 +1,117 @@
-baseURL: https://blog.metal-detector.rocks/
-languageCode: en-us
-title: Metal Detector Blog
+baseURL: "https://blog.metal-detector.rocks/"
+languageCode: "en-us"
+title: "Metal Detector Blog"
+theme: "PaperMod"
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Metal Detector Blog"
+  description: "Built for Metalheads."
+  author: ["DanielW", "NilsD"]
+  images: ["https://metal-detector.rocks/images/logo.png"]
+
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  disableSpecial1stPost: false
+  comments: true
+  hidemeta: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # ToDo DanielW: Favicons
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+#  ToDo DanielW: Home?
+  label:
+    text: " "
+    icon: /logo.png
+    iconHeight: 70
+
+  # profile-mode
+  profileMode:
+    enabled: true
+    title: Metal Detector Blog
+    subtitle: "Built for Metalheads."
+
+  socialIcons:
+    - name: facebook
+      url: "https://twitter.com/"
+    - name: instagram
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/MetalDetectorRocks"
+
+#  analytics:
+#    google:
+#      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: metal-detector
+      name: Metal Detector
+      url: https://metal-detector.rocks
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
