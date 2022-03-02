@@ -18,8 +18,8 @@
 }
 
 .dark {
-    --theme: #1d1e20;
-    --entry: #2e2e33;
+    --theme: #02040A;
+    --entry: #0C0E14;
     --primary: rgba(255, 255, 255, 0.84);
     --secondary: rgba(255, 255, 255, 0.56);
     --tertiary: rgba(255, 255, 255, 0.16);
