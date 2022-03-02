@@ -2,11 +2,11 @@
 
 ## Hugo
 
-The blog uses [Hugo](https://gohugo.io/). Hugo is a static site generators.
+The blog uses [Hugo](https://gohugo.io/). Hugo is a static site generator.
 
 ### Installation
 
-On macOS, the best way to install Hugo is via `brew`. Please see [here](https://gohugo.io/getting-started/installing/) for other possibilities.
+On macOS, the best way to install Hugo is via `brew install hugo`. Please see [here](https://gohugo.io/getting-started/installing/) for other possibilities.
 
 ### Theme
 
