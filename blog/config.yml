@@ -52,7 +52,7 @@ params:
     - name: buymeacoffee
       url: "https://www.buymeacoffee.com/metaldetector"
     - name: instagram
-      url: "https://instagram.com" # ToDo DanielW: Create instagram account
+      url: "https://instagram.com/metaldetector.rocks"
     - name: github
       url: "https://github.com/MetalDetectorRocks"
     - name: rss
