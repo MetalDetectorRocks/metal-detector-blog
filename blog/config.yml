@@ -25,6 +25,7 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
+  ShowBreadCrumbs: true
   disableSpecial1stPost: false
   comments: true
   hidemeta: false
@@ -43,11 +44,9 @@ params:
     icon: /logo.png
     iconHeight: 70
 
-  # profile-mode
-  profileMode:
-    enabled: true
-    title: Metal Detector Blog
-    subtitle: "Built for Metalheads."
+  homeInfoParams:
+    Title: Metal Detector Blog
+    Content: "Built for Metalheads."
 
   socialIcons:
     - name: buymeacoffee
@@ -64,9 +63,9 @@ params:
 #      SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
@@ -82,7 +81,7 @@ params:
 menu:
   main:
     - identifier: metal-detector
-      name: Metal Detector
+      name: Main Site
       url: https://metal-detector.rocks
       weight: 10
     - identifier: categories
@@ -93,10 +92,14 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 40
+      weight: 50
 
 outputs:
   home:
