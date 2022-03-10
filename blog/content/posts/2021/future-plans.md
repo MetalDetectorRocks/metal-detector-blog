@@ -3,6 +3,7 @@ title: "Future Plans"
 date: 2021-02-01
 author: "DanielW"
 draft: false
+tags: ["Announcements", "Metal Detector", "Features"]
 ---
 
 Since about a month the Metal Detector has opened its doors for a small selection of people. The development has not stood still since then and will not stand still the rest of the year. We still have plenty of features and improvements planned for the Metal Detector. Today I want to give you a small overview of what you can look forward to in the future.

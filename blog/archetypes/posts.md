@@ -1,21 +1,19 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 # aliases: ["/first"]
-tags: ["first"]
-author: "Me"
+tags: [""]
+author: "DanielW"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
-searchHidden: true
+searchHidden: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text

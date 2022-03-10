@@ -1,8 +1,9 @@
 ---
 title: "Top 6 Releases of 2020"
 date: 2021-01-10
-author: "DanielW"
+author: ["DanielW", "NilsD"]
 draft: false
+tags: ["Releases", "Review"]
 ---
 
 In this post we want to present you our top 6 metal releases from the previous Corona year. The selection is made from purely subjective points of view. Love it or hate it!

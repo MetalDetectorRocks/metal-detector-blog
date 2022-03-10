@@ -26,6 +26,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowBreadCrumbs: true
+  ShowPostNavLinks: false
   disableSpecial1stPost: false
   comments: true
   hidemeta: false
@@ -80,14 +81,18 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
     - identifier: metal-detector
       name: Main Site
       url: https://metal-detector.rocks
-      weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
       weight: 20
+#    - identifier: categories
+#      name: Categories
+#      url: /categories/
+#      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/

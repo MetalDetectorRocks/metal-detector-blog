@@ -26,4 +26,6 @@ You can start the hugo server via `hugo server` from folder `blog/`. After hugo 
 
 #### Create new post
 
-
+```shell
+hugo new posts/{{ year }}/{{ post title }}.md
+```

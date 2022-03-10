@@ -3,6 +3,7 @@ title: "We are online!"
 date: 2021-01-09
 author: "DanielW"
 draft: false
+tags: ["Announcements", "Metal Detector", "Features"]
 ---
 
 Hell Yeah! After a long development time, the "Metal Detector" is finally online in a minimal version that represents the most important use case. We have invested a lot of work and free time for our baby, which we want to share with you today.
@@ -21,10 +22,30 @@ Ask yourself how you keep up to date with upcoming releases. For us, it usually 
 
 We want to create a metal release calendar that is 100% tailored to you and your listening habits. These are the features we are launching with:
 
-- Search, follow and unfollow metal bands ([Search and Follow Harakiri For The Sky](https://www.metal-detector.rocks/artists/search?query=Harakiri+for+the+Sky))
-- [Synchronization](https://www.metal-detector.rocks/settings/spotify-synchronization) of your followed bands from Spotify
-- An [overview](https://www.metal-detector.rocks/my-artists) of bands you are currently following
-- [A nicely designed release page](https://www.metal-detector.rocks/releases) that gives you a comprehensive overview of upcoming releases
-- You also have the possibility to [filter this release page to those bands you are currently following](https://www.metal-detector.rocks/releases?page=1&releases=my&sort=release_date&direction=asc)
+### Search, follow and unfollow metal bands
+
+Using the search you can find any metal band and follow them, e.g. [search and follow "Harakiri For The Sky"](https://www.metal-detector.rocks/artists/search?query=Harakiri+for+the+Sky). If this band then announces a new album or the day of the release has come, you will receive a notification. It's that simple!
+
+{{< image "/images/posts/2021/search-and-follow-artists.png" "Search and follow artists" >}}
+
+### Synchronization of your followed bands from Spotify
+
+Don't feel like searching for all your bands? You don't have to. Just [sync your favorite bands from Spotify](https://www.metal-detector.rocks/settings/spotify-synchronization)!
+
+{{< image "/images/posts/2021/spotify-synchronization.png" "Spotify Synchronization" >}}
+
+### An overview of bands you are currently following
+
+Of course, you can also get an [overview](https://www.metal-detector.rocks/my-artists) of bands you are currently following and since when. If you are no longer interested in a band, you can simply unfollow them.
+
+{{< image "/images/posts/2021/my-artists.png" "My followed artists" >}}
+
+### A release page that shows upcoming and recently released albums
+
+Our [nicely designed release page](https://www.metal-detector.rocks/releases) gives you a comprehensive overview of upcoming releases. You can search, order and filter the release to those bands you are currently following.
+
+{{< image "/images/posts/2021/releases.png" "Upcoming Releases" >}}
+
+## Conclusion
 
 You can be sure that it won't stay at this level of functionality. We listen to your feedback and still have a full backlog with a lot of features that you can expect in the future. So you can be curious. It will be cool!
