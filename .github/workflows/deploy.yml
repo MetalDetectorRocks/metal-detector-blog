@@ -54,11 +54,12 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --configDir ./blog \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./blog/public
 
   deploy:
     environment:
