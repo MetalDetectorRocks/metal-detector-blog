@@ -22,7 +22,7 @@ The following resources may answer your questions:
 
 #### Start server
 
-You can start the hugo server via `hugo server` from folder `blog/`. After hugo has rendered the project, it is available at `http://localhost:1313/`. The server has a built-in watch mode, so that when changes are made, the server does not have to be restarted each time.
+You can start the hugo server via `hugo server`. After hugo has rendered the project, it is available at `http://localhost:1313/`. The server has a built-in watch mode, so that when changes are made, the server does not have to be restarted each time.
 
 #### Create new post
 
