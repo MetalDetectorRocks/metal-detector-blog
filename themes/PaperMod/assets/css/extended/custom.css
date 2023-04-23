@@ -1,0 +1,14 @@
+.logo {
+    margin-top: 1rem;
+}
+.post-image {
+    border-radius: 8px;
+    border: 1px solid #3a3a3a;
+    width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .post-image {
+        width: 100%;
+    }
+}
